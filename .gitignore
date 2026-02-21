@@ -1,2 +1,35 @@
+# Віртуальні середовища
+venv/
+.venv/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Логи та тимчасові файли
+*.log
+*.tmp
+*.swp
+
+# Конфігураційні файли середовища
 .env
-main.py
+
+# IDE та редактори
+.vscode/
+.idea/
+
+# Системні файли
+*.DS_Store
+Thumbs.db
+
+# Бінарні файли та збірки
+*.sqlite3
+*.db
+*.exe
+*.dll
+*.so
+
+# Тестові звіти
+.coverage
+htmlcov/
